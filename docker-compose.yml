@@ -2,7 +2,7 @@ version: '3'
 
 services:
   check:
-    image: gonzalo123.check
+    image: yovafree.check
     restart: always
     volumes:
     - ./src/check:/code/src
