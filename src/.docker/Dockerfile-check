@@ -1,7 +1,7 @@
 FROM python:3.6.9-alpine3.9
 
-RUN apt-get update
-RUN apt-get install -y python-setuptools netcat
+RUN apk update && \
+    apk add --virtual python-setuptools netcat
 
 WORKDIR /code/src
 COPY ./check .
