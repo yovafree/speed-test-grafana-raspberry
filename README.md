@@ -14,8 +14,6 @@ It is a fork of this [repository](https://github.com/gonzalo123/speed "repositor
 
     docker-compose up -d
 
-4) When the containers are built, you can enter the grafana board in the web browser. Remember to use the values you set in the .env file as user and password (GF_SECURITY_ADMIN_USER and GF_SECURITY_ADMIN_PASSWORD).
-
-Example:
+4) When the containers are built, you can enter the grafana board in the web browser. Remember to use the values you set in the .env file as user and password (GF_SECURITY_ADMIN_USER and GF_SECURITY_ADMIN_PASSWORD). Example:
 
 	http://RaspberryIP:3000/
